@@ -7,11 +7,11 @@ public class Ejemplo1While {
         int this.numero=0;
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduzca un número: ");
-        num = sc.nextInt();
-        while (num>= 0){
-               suma = suma + num;
+        numero = sc.nextInt();
+        while (numero>= 0){
+               suma = suma + numero;
                System.out.print("Introduzca un número: ");
-               num = sc.nextInt();
+               numero = sc.nextInt();
         }
         System.out.println("La suma es: " + suma );
     }

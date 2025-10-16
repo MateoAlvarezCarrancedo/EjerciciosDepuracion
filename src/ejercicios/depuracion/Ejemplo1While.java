@@ -9,11 +9,11 @@ public class Ejemplo1While {
 >>>>>>> feature/mejoras
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduzca un número: ");
-        contador = sc.nextInt();
-        while (contador>= 0){
-               suma = suma + contador;
+        numero = sc.nextInt();
+        while (numero>= 0){
+               suma = suma + numero;
                System.out.print("Introduzca un número: ");
-               contador = sc.nextInt();
+               numero = sc.nextInt();
         }
         System.out.println("La suma es: " + suma );
     }
